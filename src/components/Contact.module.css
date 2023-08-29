@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container > h1 {
+    font-size: clamp(40px, 5vw, 60px);
+    font-weight: 600;
+    color: white;
+}
+
+.container > h2 {
+    font-size: 20px;font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+    color: #8892b0;
+    width: 70%;
+}
+
+.container > button {
+    margin-top: 2rem;
+    border: 3px solid #afc7ff;
+    color: #afc7ff;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .container > button:hover {
+    transform: translate(-5px, -5px); /* Move up and to the left */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .container > button::before {
+    content: '';
+    position: absolute;
+    top: -6px; /* Position above the button */
+    left: -6px; /* Position to the left of the button */
+    width: calc(100% + 12px); /* Extend the width to cover the border */
+    height: calc(100% + 12px); /* Extend the height to cover the border */
+    border: 3px solid transparent; /* Initial transparent border */
+    border-radius: 6px; /* Match the adjusted position */
+    transition: all 0.3s ease;
+    z-index: -1; /* Place the pseudo-element behind the button */
+  }
+  
+  .container > button:hover::before {
+    border-color: #afc7ff; /* Show the trailing border on hover */
+  }

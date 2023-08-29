@@ -1,0 +1,75 @@
+.searchContainer {
+    margin-top: 2rem;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: relative;
+    overflow: visible; /* Change overflow to visible to allow content to expand */
+}
+
+.inputButton {
+    width: 100%;
+}
+
+.searchBar {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchInput {
+    height: 40px;
+    position: relative;
+    border-radius: 4px;
+    padding: 8px;
+    align-items: center;
+}
+
+.inputField {
+    margin-left: 3px;
+    outline: none;
+    color: black;
+    background-color: inherit;
+}
+
+.contextBox {
+    position: absolute;
+    top: 100%;
+    margin-top: 5px; 
+  }
+  
+  
+
+  .dropdown {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* Set a background color for the dropdown */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+.flashingCursor {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 25px;
+    background-color: #000;
+    animation: cursorFlashing 2s infinite;
+}
+
+@keyframes cursorFlashing {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

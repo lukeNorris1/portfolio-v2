@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 2rem 0;
+    font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}

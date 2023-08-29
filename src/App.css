@@ -1,0 +1,74 @@
+/* App.css */
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+
+.footer {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3s ease, transform 3s ease;
+}
+
+.fade-in-footer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity:1;
+    transform: translateY(0);
+  }
+}

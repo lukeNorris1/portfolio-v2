@@ -1,0 +1,33 @@
+.container {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    width: 1px;
+    margin: 0 auto;
+    height: 40px;
+    background-color: white; /* You can change this to your desired line color */
+    margin-top: 0.5rem; /* Adjust this value to control the distance between the content and the line */
+}
+/* SVGLink.module.css */
+.svgLink {
+    display: flex; /* Use flexbox to center contents */
+    align-items: center; /* Vertically center items */
+    justify-content: center; /* Horizontally center items */
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.svgLink:hover {
+    color: #5ac1e7;
+    transform: translateY(-5px); /* Move the element up by 10px */
+}
