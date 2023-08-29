@@ -1,4 +1,5 @@
 &nbsp;
+
 <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/lukeNorris1/portfolio-v2/main/public/vite.svg" width="100" />
 </div>
@@ -6,9 +7,8 @@
   luke-norris.online
 </h1>
 <p align="center">
-  The third version of <a href="https://brittanychiang.com" target="_blank">luke-norris.online</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">React</a> and hosted with <a href="https://render.com/" target="_blank">Render</a>
+  The third version of <a href="https://luke-norris.online" target="_blank">luke-norris.online</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">React</a> and hosted with <a href="https://render.com/" target="_blank">Render</a>
 </p>
-
 
 # Luke Norris
 
@@ -21,7 +21,6 @@ Hi there! 👋 I'm Luke Norris, a Front-End Developer based in Melbourne. Welcom
    ```sh
    npm install
    ```
-
 
 1. Start the development server
 
