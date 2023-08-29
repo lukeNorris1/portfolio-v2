@@ -7,7 +7,10 @@
   luke-norris.online
 </h1>
 <p align="center">
-  The third version of <a href="https://luke-norris.online" target="_blank">luke-norris.online</a> built with <a href="https://react.dev/" target="_blank">React</a> and hosted with <a href="https://render.com/" target="_blank">Render</a>
+  The third version of <a href="https://luke-norris.online" rel="noopener noreferrer"
+          target="_blank">luke-norris.online</a> built with <a href="https://react.dev/" rel="noopener noreferrer"
+          target="_blank">React</a> and hosted with <a href="https://render.com/" rel="noopener noreferrer"
+          target="_blank">Render</a>
 </p>
 
 # Luke Norris
