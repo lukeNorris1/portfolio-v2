@@ -4,7 +4,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/lukeNorris1/portfolio-v2/main/public/vite.svg" width="100" />
 </div>
 <h1 align="center">
-  luke-norris.online
+  <a href='https://www.luke-norris.online'>luke-norris.online</a>
 </h1>
 <p align="center">
   The third version of <a href="https://luke-norris.online" target="_blank">luke-norris.online</a> built with <a href="https://react.dev/" target="_blank">React</a> and hosted with <a href="https://render.com/" target="_blank">Render</a>
