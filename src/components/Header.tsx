@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
-import LogoSvg from "./LogoSvg";
 
 export default function Header() {
   const [isVisible, setIsVisible] = useState(true);
@@ -26,7 +25,7 @@ export default function Header() {
       <nav className={styles.navigation}>
         <div className={styles.logoContainer}>
           <div className={styles.logoWrapper}>
-            <img src="../../public/vite.svg" width={50}></img>
+            <img src="/vite.svg" width={50}></img>
           </div>
         </div>
         <div>
