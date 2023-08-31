@@ -1,4 +1,12 @@
 /* App.css */
+
+@media (max-width: 1360px) {
+  * {
+    width: 100%;
+  }
+}
+
+
 .fade-in {
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;

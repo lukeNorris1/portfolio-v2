@@ -79,3 +79,16 @@ header li:hover::after {
   width: 90%; 
 }
 
+@media (max-width: 1360px) {
+  
+  .nav-list {
+    visibility: hidden;
+  }
+  .logoContainer {
+    padding-left: 10%;
+  }
+  .logoWrapper{
+    width: 50px;
+  }
+  
+}

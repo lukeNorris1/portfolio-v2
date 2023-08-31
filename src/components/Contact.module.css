@@ -6,6 +6,8 @@
     text-align: center;
 }
 
+
+
 .container > h1 {
     font-size: clamp(40px, 5vw, 60px);
     font-weight: 600;
@@ -49,3 +51,22 @@
   .container > button:hover::before {
     border-color: #afc7ff; /* Show the trailing border on hover */
   }
+
+  @media (max-width: 1360px) {
+    .container {
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+    .container > button {
+      width: 50%;
+    }
+    .container > h1 {
+      font-size: clamp(30px, 5vw, 60px);
+  }
+  .container > h2 {
+    padding-top: 0.5rem;
+    font-size: 15px;font-family: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+  }
+  
+  }
+  

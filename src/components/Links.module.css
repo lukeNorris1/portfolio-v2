@@ -16,6 +16,17 @@
     background-color: white; /* You can change this to your desired line color */
     margin-top: 0.5rem; /* Adjust this value to control the distance between the content and the line */
 }
+
+@media (max-width: 1360px) {
+    .container {
+        padding-left: 0.5rem;
+    }
+    .container::after {
+        margin: 0 25px;
+        height: 20px;
+    }
+  }
+
 /* SVGLink.module.css */
 .svgLink {
     display: flex; /* Use flexbox to center contents */

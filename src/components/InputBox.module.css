@@ -73,3 +73,12 @@
         opacity: 1;
     }
 }
+
+
+@media (max-width: 1360px) {
+    .searchContainer {
+        width: 100%;
+    }
+    
+  }
+

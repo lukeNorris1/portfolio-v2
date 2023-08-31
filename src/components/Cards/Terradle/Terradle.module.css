@@ -175,12 +175,7 @@
   }
   
   
-  @media(max-width: 700px) {
-    .screen {
-      scale: 0.6;
-      margin-bottom: 0rem;
-    }
-  }
+
   
   /* -- Blob effect -- */
   
@@ -244,3 +239,22 @@
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+
+
+@media (max-width: 1360px) {
+  .container {
+      gap: 1rem;
+  }
+  .screen{
+  }
+  .about > .title {
+    font-size: large;
+  }
+  .screen > .screen-content > .screen-user > .name {
+    position: relative;
+    font-size: 20px;
+  }
+  .icon-container{
+    width: 50%;
+  }
+  }

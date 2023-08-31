@@ -8,6 +8,12 @@ html{scroll-behavior:smooth}
   padding: 0;
 }
 
+@media (max-width: 1360px) {
+  .element {
+    width: 100vw;
+  }
+}
+
 body {
   display: flex;
   justify-content: center;

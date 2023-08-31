@@ -5,3 +5,13 @@
     padding: 2rem 0;
     font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 }
+
+
+@media (max-width: 1360px) {
+    .footer {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 1rem 0;
+    }
+  }

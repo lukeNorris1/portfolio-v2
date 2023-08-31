@@ -26,7 +26,7 @@ export default function Header() {
       <nav className={styles.navigation}>
         <div className={styles.logoContainer}>
           <div className={styles.logoWrapper}>
-            <LogoSvg />
+            <img src="../../public/vite.svg" width={50}></img>
           </div>
         </div>
         <div>
