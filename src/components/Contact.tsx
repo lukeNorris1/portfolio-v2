@@ -6,7 +6,7 @@ export default function Contact() {
       <h1>Let's Connect</h1>
       <h2>
         I'm always open to new opportunities and collaborations that allow me to
-        bring my passion for problem-solving to the forefront.
+        bring my passion for problem solving to the forefront.
       </h2>
       <button>
         <a
