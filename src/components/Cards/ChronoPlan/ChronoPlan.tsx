@@ -16,7 +16,7 @@ export default function SchedulingCard() {
           <i className={styles["screen-icon"]}></i>
           <div className={styles["screen-user"]}>
             <span className={styles.name} data-value="SCHEDULING">
-              Chronoplan
+              Ordomise
             </span>
             <div className={styles.images}>
               <Mongo />
@@ -34,7 +34,7 @@ export default function SchedulingCard() {
               </a>
               <a
                 className={styles.link}
-                href="https://scheduler-frontend-3gno.onrender.com/"
+                href="https://ordomise.onrender.com/"
                 target="_blank"
               >
                 <Live />
@@ -44,7 +44,7 @@ export default function SchedulingCard() {
         </div>
       </div>
       <div className={styles.about}>
-        <h1 className={styles.title}>ChronoPlan</h1>
+        <h1 className={styles.title}>Ordomise</h1>
         <span className={styles.body}>
           <>
             A Scheduling tool to organise employees and workflow by managing:
