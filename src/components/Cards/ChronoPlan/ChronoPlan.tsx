@@ -3,7 +3,6 @@ import Express from "../Icon-Tech/Express";
 import Mongo from "../Icon-Tech/Mongo";
 import Node from "../Icon-Tech/Node";
 import React from "../Icon-Tech/React";
-import Github from "../Icon-Tech/Github";
 import Live from "../Icon-Tech/Live";
 
 export default function SchedulingCard() {
