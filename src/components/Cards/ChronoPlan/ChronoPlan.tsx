@@ -27,14 +27,7 @@ export default function SchedulingCard() {
             <div className={styles["icon-container"]}>
               <a
                 className={styles.link}
-                href="https://github.com/lukeNorris1/NorrisScheduling"
-                target="_blank"
-              >
-                <Github />
-              </a>
-              <a
-                className={styles.link}
-                href="https://ordomise.onrender.com/"
+                href="https://www.ordomise.com/"
                 target="_blank"
               >
                 <Live />
